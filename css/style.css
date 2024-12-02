@@ -1,1 +1,3 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+    background-image: url('img/Bakgrund.jpeg');
+}
