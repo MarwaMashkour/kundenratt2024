@@ -1,3 +1,26 @@
-body {
-    background-image: url('img/Bakgrund.jpeg');
+#container{
+    display: grid;
+    height: 150vh;
+    grid-template-areas: 
+    'nv nv nv nv '
+    'sec sec sec sec'
+    'sec sec sec sec'
+    'sec sec sec sec'
+    'sec sec sec sec';
+
+    margin: auto;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr; 
+    gap: 1px;
+
+}
+
+
+nav{
+    grid-area: nv;
+    background-color: blue;
+}
+
+section{
+    grid-area: sec;
+    background-color: blue;
 }
