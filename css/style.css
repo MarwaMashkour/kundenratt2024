@@ -17,7 +17,7 @@
 
 nav{
     grid-area: nv;
-    background-color: blue;
+    background-color: antiquewhite;
 }
 
 section{
@@ -35,8 +35,33 @@ section{
 
 .nav div{
    width: 300px;
-   height: 100px;
+   height: 10
+   px;
    background-color: antiquewhite;
    text-align: center;
    line-height: 100px;
+}
+
+#bakgrund {
+    background-image: url('../img/Bakgrund.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size:50px;
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+
+
+#sushi {
+    width: 600px;
+    height: 600px; 
 }
