@@ -43,7 +43,7 @@ section{
 }
 
 #bakgrund {
-    background-image: url('../img/Bakgrund.jpeg');
+    background-image: url('../img/pn');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -69,12 +69,18 @@ h2 {
     height: 600px; 
 }
 
+
 #sida2 {
-    background-color: #e67e22;
-}
+    
+    background-image: url('../img/pngtree-orange-light-background-image_15722879.jpg');
+    background-size: cover;
+   }
 
 .restauranger {
 
     display: flex;
     gap: 60px;
+    padding: 110px;
+    justify-content: space-around;
+
 }
