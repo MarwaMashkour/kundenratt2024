@@ -1,3 +1,4 @@
+
 #container{
     display: grid;
     height: 150vh;
@@ -9,21 +10,22 @@
     'sec sec sec sec';
 
     margin: auto;
-    grid-template-rows: 0.1fr 0.15fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.1fr 0.1fr 1fr 1fr 1fr; 
 }
 
 header {
     grid-area: hd;
     font-size: 70px;
-    background-color: beige;
-    margin: 0%;
+    background-color: rgb(255, 143, 51);
+    
 }
 
 
 
 nav{
     grid-area: nv;
-    background-color: antiquewhite;
+    background-color: rgb(2255, 143, 51);
+  
 }
 
 section{
@@ -43,7 +45,7 @@ section{
    width: 300px;
    height: 10
    px;
-   background-color: antiquewhite;
+   background-color: rgb(255, 143, 51);
    text-align: center;
    line-height: 100px;
 }
@@ -56,16 +58,27 @@ section{
     justify-content: space-around;
 }
 
+button {
+    width: 250px;
+    height: 80px;
+    font-size: 25px;
+   position: relative;
+   top: 170px;
+   right: 1370px;
+   border-radius: 12px;
+}
+
 h1 {
     font-size:90px;
     text-align: left;
-    margin: 30px;
+    margin-left: 65px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;
-    margin: 30px;
+    margin-left: 70px;
+    margin-top: -70px;
 }
 
 
@@ -73,6 +86,7 @@ h2 {
 #sushi {
     width: 600px;
     height: 600px; 
+    margin: 100px;
 }
 
 
